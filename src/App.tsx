@@ -284,7 +284,7 @@ export default function App() {
                 <h2 className="text-4xl md:text-5xl font-body mb-2 tracking-tight">Dự án <span className="font-display italic text-gray-400">nổi bật</span></h2>
                 <p className="text-muted">Các dự án tôi đã phát triển tử ý tưởng đến khi ra mắt.</p>
               </div>
-              <a href="https://github.com/dunghc742" target="_blank" rel="noreferrer" className="px-6 py-2 rounded-full border border-stroke text-sm hover:bg-white hover:text-black transition-colors">
+              <a href="https://github.com/chidungho" target="_blank" rel="noreferrer" className="px-6 py-2 rounded-full border border-stroke text-sm hover:bg-white hover:text-black transition-colors">
                 Xem tất cả &rarr;
               </a>
             </div>
@@ -295,8 +295,8 @@ export default function App() {
                    <h3 className="text-4xl font-bold text-white z-0 opacity-50">VacTrack V2</h3>
                    <div className="absolute inset-0 bg-black/40 group-hover:bg-transparent transition-colors duration-500"></div>
                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <a href="https://github.com/chidungho/vactrack-V2" target="_blank" rel="noreferrer" className="px-6 py-3 bg-surface/80 backdrop-blur-md rounded-full border border-white/10 text-white font-medium hover:bg-white hover:text-black transition-colors">
-                        View — Digital Health Passport
+                      <a href="https://github.com/phucdevz/Vactrack_Project_V1" target="_blank" rel="noreferrer" className="px-6 py-3 bg-surface/80 backdrop-blur-md rounded-full border border-white/10 text-white font-medium hover:bg-white hover:text-black transition-colors">
+                        GitHub - Digital Health Passport
                       </a>
                    </div>
                 </div>
@@ -312,7 +312,7 @@ export default function App() {
                     <div className="absolute inset-0 bg-black/40 group-hover:bg-transparent transition-colors duration-500"></div>
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                        <a href="https://github.com/chidungho/troliao" target="_blank" rel="noreferrer" className="px-6 py-3 bg-surface/80 backdrop-blur-md rounded-full border border-white/10 text-white font-medium hover:bg-white hover:text-black transition-colors">
-                         View — AI & Keylogger
+                         GitHub - AI & Keylogger
                        </a>
                     </div>
                  </div>
@@ -321,6 +321,59 @@ export default function App() {
                    <p className="text-muted text-base">Tích hợp nhận diện giọng nói, điều khiển máy tính qua Python AI.</p>
                  </div>
                </div>
+
+              <div className="group block cursor-pointer">
+                <div className="relative w-full aspect-[4/3] rounded-[2rem] bg-white overflow-hidden mb-6 border border-stroke flex items-center justify-center">
+                   <img src="/images/appqlhoctap.png" alt="Dự án Quản Lí Học Tập" className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-[1.03]" />
+                   <div className="absolute inset-0 bg-black/25 group-hover:bg-black/5 transition-colors duration-500"></div>
+                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <a href="https://github.com/chidungho/appqlhoctap" target="_blank" rel="noreferrer" className="max-w-[82%] px-6 py-3 bg-surface/90 backdrop-blur-md rounded-full border border-white/10 text-center text-white font-medium hover:bg-white hover:text-black transition-colors">
+                        GitHub - Quản Lí Học Tập
+                      </a>
+                   </div>
+                </div>
+                <div className="px-2">
+                  <h5 className="text-2xl text-white mb-2">Quản Lí Học Tập</h5>
+                  <p className="text-muted text-base">Ứng dụng quản lí học tập, hỗ trợ theo dõi môn học, lịch học và tiến độ cá nhân.</p>
+                </div>
+              </div>
+
+              <div className="group block cursor-pointer">
+                <div className="relative w-full aspect-[4/3] rounded-[2rem] bg-[#08111f] overflow-hidden mb-6 border border-stroke flex items-center justify-center mt-0 md:mt-16">
+                   <div className="absolute inset-0 bg-gradient-to-br from-[#112235] via-[#0b1323] to-[#221a35]"></div>
+                   <div className="relative z-0 w-[84%] rounded-3xl border border-sky-200/10 bg-[#101828]/85 p-4 shadow-[0_24px_80px_rgba(0,0,0,0.45)] transition-transform duration-500 group-hover:scale-[1.03]">
+                     <div className="flex items-center justify-between border-b border-sky-200/10 pb-3">
+                       <div className="flex items-center gap-2 text-sky-300 font-semibold">
+                         <i className="fas fa-language text-sm"></i>
+                         <span>Glacier Translate</span>
+                       </div>
+                       <div className="flex gap-2 text-[10px] text-slate-300">
+                         <span>Dịch thuật</span>
+                         <span>Lịch sử</span>
+                         <span>Đã lưu</span>
+                       </div>
+                     </div>
+                     <div className="py-6 text-center">
+                       <div className="text-[11px] uppercase tracking-[0.18em] text-sky-300 mb-2">Dịch thuật chuyên dụng</div>
+                       <h3 className="text-2xl md:text-3xl font-bold text-sky-100 leading-tight">Phá bỏ mọi rào cản ngôn ngữ</h3>
+                     </div>
+                     <div className="grid grid-cols-2 border border-sky-200/10 rounded-2xl overflow-hidden text-left">
+                       <div className="h-24 p-3 border-r border-sky-200/10 text-slate-500">Nhập văn bản...</div>
+                       <div className="h-24 p-3 text-slate-500">Bản dịch...</div>
+                     </div>
+                   </div>
+                   <div className="absolute inset-0 bg-black/30 group-hover:bg-black/5 transition-colors duration-500"></div>
+                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <a href="https://github.com/chidungho/Translate-" target="_blank" rel="noreferrer" className="max-w-[82%] px-6 py-3 bg-surface/90 backdrop-blur-md rounded-full border border-white/10 text-center text-white font-medium hover:bg-white hover:text-black transition-colors">
+                        GitHub - Glacier Translate
+                      </a>
+                   </div>
+                </div>
+                <div className="px-2">
+                  <h5 className="text-2xl text-white mb-2">Glacier Translate</h5>
+                  <p className="text-muted text-base">Ứng dụng dịch thuật đa ngôn ngữ với giao diện hiện đại, có lịch sử và danh sách đã lưu.</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -340,7 +393,7 @@ export default function App() {
               <h2 className="text-4xl mb-4 font-display italic">Hãy kết nối</h2>
               <p className="text-muted mb-8">Bạn có dự án hoặc ý tưởng? Liên hệ ngay để cùng thảo luận.</p>
               <div className="flex justify-center gap-6 text-2xl">
-                 <a href="https://github.com/dunghc742" className="text-white hover:text-gray-400" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
+                 <a href="https://github.com/chidungho" className="text-white hover:text-gray-400" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
                  <a href="https://linkedin.com/in/hochidzung" className="text-white hover:text-blue-500" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
                  <a href="https://www.facebook.com/cheesedung10" className="text-white hover:text-blue-600" target="_blank" rel="noreferrer"><i className="fab fa-facebook"></i></a>
                  <a href="mailto:dunghc0742@ut.edu.vn" className="text-white hover:text-red-400"><i className="fas fa-envelope"></i></a>
