@@ -179,7 +179,7 @@ export default function App() {
               <a href="#experience" className="group relative rounded-full text-sm px-6 py-3 bg-white text-black hover:bg-black hover:text-white transition-all hover:scale-105 overflow-hidden no-underline">
                  <span className="relative z-10">Xem Dự Án</span>
               </a>
-              <a href="/downloadCV/HoChiDung.pdf" target="_blank" className="group relative rounded-full text-sm px-6 py-3 border border-white/20 text-white hover:border-white transition-all hover:scale-105 no-underline">
+              <a href="/downloadCV/HoChiDung_CV_Frontend_intern.pdf" download="HoChiDung_CV_Frontend_intern.pdf" className="group relative rounded-full text-sm px-6 py-3 border border-white/20 text-white hover:border-white transition-all hover:scale-105 no-underline">
                  <span className="relative z-10">Download CV</span>
               </a>
             </div>
