@@ -1,11 +1,18 @@
 # Logs
 logs
+.codex-run/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+!.env.sample
 
 node_modules
 dist
